@@ -1,11 +1,11 @@
-import { IndicatorDataTable } from '@/components/analytics/IndicatorDataTable';
-import { IndicatorChart } from '@/components/analytics/IndicatorChart';
+import { IndicatorDataTable } from '@/app/components/analytics/IndicatorDataTable';
+import { IndicatorChart } from '@/app/components/analytics/IndicatorChart';
 import {
   getIndicator,
   getIndicatorDimensions,
   getIndicatorData,
 } from '../../../lib/api/analytics';
-import { IndicatorFilters } from '@/components/analytics/IndicatorFilters';
+import { IndicatorFilters } from '@/app/components/analytics/IndicatorFilters';
 
 interface PageProps {
   params: Promise<{

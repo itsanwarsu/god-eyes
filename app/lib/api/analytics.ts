@@ -5,7 +5,7 @@ import type {
   IndicatorListResponse,
   IndicatorDimensionsResponse,
   IndicatorDataResponse,
-} from '@/types/analytics';
+} from '@/app/types/analytics';
 
 export async function getIndicators(params?: {
   page?: number;

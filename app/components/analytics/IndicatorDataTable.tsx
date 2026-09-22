@@ -2,7 +2,7 @@
 
 import type {
   IndicatorObservation,
-} from '@/types/analytics';
+} from '@/app/types/analytics';
 
 interface IndicatorDataTableProps {
   data: IndicatorObservation[];

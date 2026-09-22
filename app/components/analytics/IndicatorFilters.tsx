@@ -4,7 +4,7 @@ import { usePathname, useRouter, useSearchParams } from 'next/navigation';
 
 import type {
   IndicatorDimension,
-} from '@/types/analytics';
+} from '@/app/types/analytics';
 
 interface IndicatorFiltersProps {
   dimensions: IndicatorDimension[];

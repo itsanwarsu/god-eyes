@@ -12,11 +12,11 @@ import {
   ChartContainer,
   ChartTooltip,
   ChartTooltipContent,
-} from '@/components/ui/chart';
+} from '@/app/components/ui/chart';
 
 import type {
   IndicatorObservation,
-} from '@/types/analytics';
+} from '@/app/types/analytics';
 
 interface IndicatorChartProps {
   data: IndicatorObservation[];
